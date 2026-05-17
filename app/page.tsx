@@ -1,9 +1,12 @@
-import { Header } from "@/src/components/Home/header"
+import Navbar from "@/src/components/Common/Navbar/navbar"
+import { HeroSection } from "@/src/components/Home/HeroSection/hero"
 
 export default function Home() {
   return (
-    <main>
-      <Header />
+    <main className=" ">
+      <div className='mt-7'>
+         <HeroSection/>
+      </div>
     </main>
   )
 }

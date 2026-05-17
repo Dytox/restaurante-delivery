@@ -1,3 +1,7 @@
+import './globals.css'
+import { inter } from './fonts'
+import Navbar from '@/src/components/Common/Navbar/navbar'
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +9,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.className}`}>
+      <Navbar/>
+        <div className="app-body">
+          {children}
+        </div>
+      </body>
     </html>
   )
 }
