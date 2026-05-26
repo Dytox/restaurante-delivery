@@ -1,6 +1,7 @@
 import { Categories } from "@/src/components/Home/Categories/categories"
 import { HeroSection } from "@/src/components/Home/HeroSection/hero"
 import { Info } from "@/src/components/Home/Info/info"
+import { Start } from "@/src/components/Home/Start/start"
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
       </div>
       <div className="mt-20">
         <Categories/>
+      </div>
+      <div className="mt-20">
+        <Start/>
       </div>
     </main>
   )

@@ -42,7 +42,7 @@ export const Categories = () => {
         <div className="w-full flex justify-between mt-6 p-2">
           {items.map((item, index) => (
             <button
-              className="border-2 border-gray-400 hover:border-gray-600 rounded-lg w-[23%] hover:scale-105 hover:shadow-lg p-6 transition-transform"
+              className="border-2 border-gray-400 hover:border-gray-600 rounded-lg w-[23%] aspect-video hover:scale-105 hover:shadow-lg p-6 transition-transform flex flex-col gap-4"
               key={index}
               onClick={() => {
                 console.log(`Navegar a ${item.url}`);
