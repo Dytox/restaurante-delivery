@@ -1,7 +1,7 @@
-import { Categories } from "@/src/components/Home/Categories/categories"
-import { HeroSection } from "@/src/components/Home/HeroSection/hero"
-import { Info } from "@/src/components/Home/Info/info"
-import { Start } from "@/src/components/Home/Start/start"
+import { Categories } from "@/src/components/Home/Categories/Categories"
+import { HeroSection } from "@/src/components/Home/HeroSection/Hero"
+import { Info } from "@/src/components/Home/Info/Info"
+import { Start } from "@/src/components/Home/Start/Start"
 
 export default function Home() {
   return (
